@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+p, a, li, label, input, textarea, div, span {
+   font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   text-rendering: optimizeLegibility;
+   letter-spacing: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    display: inline-block;
+    width: 200px;
+    height: 46px;
+    line-height: 47px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(0, 110, 212);
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 2.5 ease-in-out;
+    margin-top: 20px;
+  }
+
